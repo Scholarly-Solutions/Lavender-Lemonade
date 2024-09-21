@@ -1,0 +1,39 @@
+:root {
+
+    /* Lavender Colors */
+    --color-neutral-50:     240, 230, 250;   /* Light Lavender */
+    --color-neutral-100:    230, 200, 250;
+    --color-neutral-200:    210, 170, 250;
+    --color-neutral-300:    190, 140, 245;
+    --color-neutral-400:    170, 110, 240;
+    --color-neutral-500:    150, 80, 230;
+    --color-neutral-600:    130, 60, 210;
+    --color-neutral-700:    110, 40, 190;
+    --color-neutral-800:    16, 0, 53;
+    --color-neutral-900:    70, 10, 130;
+  
+    /* Citrus Yellow */
+    --color-primary-50:   255, 255, 240;    /* Light Yellow */
+    --color-primary-100:  255, 250, 200;
+    --color-primary-200:  255, 245, 160;
+    --color-primary-300:  255, 240, 120;
+    --color-primary-400:  255, 230, 80;
+    --color-primary-500:  255, 220, 40;
+    --color-primary-600:  220, 180, 30;
+    --color-primary-700:  180, 140, 20;
+    --color-primary-800:  140, 100, 10;
+    --color-primary-900:  100, 70, 0;
+  
+    /* Pine Green */
+    --color-tertiary-50:    240, 250, 240;    /* Light Pine Green */
+    --color-tertiary-100:   220, 240, 220;
+    --color-tertiary-200:   200, 230, 200;
+    --color-tertiary-300:   180, 220, 180;
+    --color-tertiary-400:   160, 210, 160;
+    --color-tertiary-500:   140, 200, 140;
+    --color-tertiary-600:   120, 180, 120;
+    --color-tertiary-700:   100, 160, 100;
+    --color-tertiary-800:   80, 140, 80;
+    --color-tertiary-900:   60, 120, 60;
+  }
+  

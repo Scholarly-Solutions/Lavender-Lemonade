@@ -1,0 +1,103 @@
+@font-face {
+  font-family: Caveat;
+  src: url('/fonts/Caveat.ttf');
+}
+
+@font-face {
+  font-family: Playpen;
+  src: url('/fonts/Playpen.ttf');
+}
+
+@font-face {
+  font-family: Rosarivo;
+  src: url('/fonts/Rosarivo.ttf');
+}
+
+html{
+  font-family: Rosarivo;
+  font-size: 14pt;
+}
+
+h1{
+  font-family: Caveat;
+}
+nav{
+  font-family: Playpen;
+}
+footer{
+  font-family: Playpen;
+}
+
+.dark h1 {
+  color: rgb(26, 4, 51) !important;
+  font-family: Caveat;
+  /* Darker Lavender Primary Color */
+}
+
+.dark h1:hover {
+  color: var(--color-secondary-300); /* Slightly lighter secondary pine green for hover in dark mode */
+}
+
+.dark nav {
+  color: rgb(130, 60, 210);
+  font-family: Playpen;
+  /* Darker Lavender Primary Color */
+}
+
+
+.dark footer {
+  color: rgb(130, 60, 210);
+  font-family: Playpen;
+  /* Darker Lavender Primary Color */
+}
+
+header {
+ background-color: rgb(33, 255, 214) ;  
+}
+
+.dark header {
+  background-color: rgb(137, 111, 201) ;  
+ }
+
+ .jsutified-text {
+  text-align: justify;
+  text-justify: inter-word;
+ }
+ 
+ .lemon, .lemonade {
+  position: absolute;
+  width: 75px; /* Adjust size as needed */
+  height: 75px; /* Adjust size as needed */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@keyframes fall {
+  0% {
+      transform: translateX(0) translateY(-100vh) rotate(0deg);
+      opacity: 0;
+  }
+  100% {
+      transform: translateX(0) translateY(75vh) rotate(360deg);
+      opacity: 1;
+  }
+}
+
+.lemon[data-aos="fall"] {
+  animation: fall 4s ease-out infinite;
+}
+
+.lemon {
+  top: 25%; /* 1/4 from top */
+  background-image: url('/img/lemon.png'); 
+  left:95%;
+}
+
+.lemonade {
+  bottom: 25%; 
+  left: 95%;
+  width: 100px;
+  height:150px;
+  transform: translateX(-50%);
+  background-image: url('/img/lemonade.png'); 
+}
